@@ -1,0 +1,1 @@
+"use strict";$.fn.waterfall=function(){var t=this,h=t.children(),e=t.width(),f=h.width(),l=(e-5*f)/4,s=[];h.each(function(t,h){if(t<5)$(h).css({top:0,left:t*(f+l)}),s[t]=$(h).height();else{for(var e=0,i=s[e],a=0;a<s.length;a++)s[a]<i&&(i=s[a],e=a);$(h).css({top:i+10,left:e*(f+l)}),s[e]=i+10+$(h).height()}});var i=Math.max.apply(Math,s);t.height(i)};

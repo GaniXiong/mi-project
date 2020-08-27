@@ -1,0 +1,1 @@
+"use strict";$(window).scroll(function(){203<=$(window).scrollTop()?($(".detailes-tit").css({position:"fixed",top:"0"}),$(".details-con").css({"margin-top":"63px"})):($(".detailes-tit").css({position:"static"}),$(".details-con").css({"margin-top":"0"}))});
